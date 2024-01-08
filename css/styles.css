@@ -182,10 +182,72 @@ h2 {
 .div2 {
     width: 25%;
 }
-.circle{
+
+.circle {
     border-radius: 55%;
     border: 15px solid #F00;
 }
+
 .div3 {
-    width: 25%;
+    width: 20%;
+}
+
+.holi {
+    background: #f75e5e;
+    width: 1350px;
+    height: auto;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+.what {
+    color: #070211;
+    font-family: Inter;
+}
+
+.holiday-sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+}
+
+.back-img,
+.div-img {
+    position: relative;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div-img1 {
+    position: relative;
+    width: 20%;
+    margin-top: 285px;
+    margin-right: 20px;
+}
+
+.div-img2 {
+    position: absolute;
+    width: 20%;
+    margin-top: 485px;
+    margin-left: 670px;
+}
+
+.div-img3 {
+    position: relative;
+    width: 20%;
+    margin-top: 610px;
+    margin-right: 165px;
+}
+
+.div-img4 {
+    position: absolute;
+    margin-bottom: 900px;
 }
