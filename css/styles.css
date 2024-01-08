@@ -13,6 +13,15 @@ header {
     text-align: center;
 }
 
+p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
 .newyear {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -21,9 +30,9 @@ header {
 .newyear-div {
     background-position: center;
     border-radius: 16px;
-    width: auto;
+    width: 1320px;
     height: 600px;
-    padding: 80px 150px 120px;
+    margin-left: 25px;
     background-image: url('../images/Banner.png');
     background-repeat: no-repeat;
 }
@@ -32,16 +41,16 @@ header {
     color: #FFF;
     font-size: 28px;
     font-weight: 400;
-    margin-top: 160px;
+    margin-top: 60px;
 }
 
 .newyear-party {
     color: #FFF;
     font-weight: 700;
+    display: flex;
     font-family: Merriweather;
     padding: 0 250px;
     margin-left: 150px;
-    /* 131.944% */
 }
 
 .offer {
@@ -89,6 +98,7 @@ header {
     width: 60%;
     margin-top: -400px;
 }
+
 .welcome-div1 {
     background-position: bottom right;
 }
@@ -108,7 +118,6 @@ header {
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    /* 166.667% */
 }
 
 .join {
@@ -130,10 +139,10 @@ header {
     width: 1000px;
     height: 200px;
     border-radius: 8px;
-    margin-left: 70px;
-    margin-top: 100px;
+    margin-left: 60px;
+    margin-top: 50px;
     text-align: center;
-    padding: 250px 150px;
+    padding: 120px 150px;
 }
 
 .btn-primary {
@@ -150,203 +159,33 @@ header {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.div {
+    background: #FFF;
+    display: flex;
+    margin-top: 200px;
+    display: inline-flex;
+    padding: 16px 32px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.soon {
+    font-family: Merriweather;
+}
+
+.div1 {
+    width: 25%;
+}
+
+.div2 {
+    width: 25%;
+}
+.circle{
+    border-radius: 55%;
+    border: 15px solid #F00;
+}
+.div3 {
+    width: 25%;
+}
