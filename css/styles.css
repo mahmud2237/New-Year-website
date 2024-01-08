@@ -37,10 +37,10 @@ header {
 
 .newyear-party {
     color: #FFF;
-    font-weight: 900;
+    font-weight: 700;
     font-family: Merriweather;
     padding: 0 250px;
-    margin-left: 160px;
+    margin-left: 150px;
     /* 131.944% */
 }
 
@@ -69,27 +69,28 @@ header {
 
 .newyear-photo {
     margin-top: 48px;
+    margin-bottom: 120px;
 }
 
 .welcome {
     background-image: url('../images/Vector.png');
     background-repeat: no-repeat;
     background-position: center;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 1320px;
     height: 600px;
     text-align: center;
-    margin-left: 300px;
-    
-    /* padding: 120px 150px 120px; */
+    padding: 40px 50px 120px 50px;
 }
 
 .welcome-div {
     width: 60%;
+    margin-top: -400px;
 }
-
 .welcome-div1 {
-    background-position:bottom right;
+    background-position: bottom right;
 }
 
 .welcome-party {
@@ -118,30 +119,234 @@ header {
 }
 
 .year2024 {
-    position: right;
-    margin-bottom: auto;
+    float: right;
+    margin-top: -350px;
+    margin-right: 160px;
 }
 
 .joinnow {
     text-align: center;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1320px;
-    height: 482px;
-    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1000px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 250px 150px;
 }
 
 .btn-primary {
     background: #F00;
     display: inline-flex;
     padding: 16px 32px;
-    /* justify-content: center; */
-    /* align-items: center; */
+    margin-top: 40px;
     gap: 10px;
     border-radius: 8px;
     color: #FFF;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
