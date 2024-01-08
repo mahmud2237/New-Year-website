@@ -1,0 +1,147 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 75px;
+}
+
+/* header styles */
+header {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.newyear {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.newyear-div {
+    background-position: center;
+    border-radius: 16px;
+    width: auto;
+    height: 600px;
+    padding: 80px 150px 120px;
+    background-image: url('../images/Banner.png');
+    background-repeat: no-repeat;
+}
+
+.newyear-greeting {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 160px;
+}
+
+.newyear-party {
+    color: #FFF;
+    font-weight: 900;
+    font-family: Merriweather;
+    padding: 0 250px;
+    margin-left: 160px;
+    /* 131.944% */
+}
+
+.offer {
+    font-family: inter;
+    text-align: center;
+}
+
+.off {
+    color: #f00;
+    font-weight: 700;
+}
+
+.deals {
+    font-family: Inter;
+    margin-top: 48px;
+    color: #f00;
+    font-weight: 500;
+}
+
+.categori {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.newyear-photo {
+    margin-top: 48px;
+}
+
+.welcome {
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    margin-left: 300px;
+    
+    /* padding: 120px 150px 120px; */
+}
+
+.welcome-div {
+    width: 60%;
+}
+
+.welcome-div1 {
+    background-position:bottom right;
+}
+
+.welcome-party {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 530px;
+    letter-spacing: 7.04px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.join {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.year2024 {
+    position: right;
+    margin-bottom: auto;
+}
+
+.joinnow {
+    text-align: center;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+}
+
+.btn-primary {
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
