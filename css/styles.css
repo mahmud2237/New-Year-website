@@ -232,26 +232,26 @@ h2 {
 
 .div-img1 {
     position: absolute;
-    width: 20%;
-    margin-top: 285px;
-    margin-right: 20px;
+    margin-top: 900px;
 }
 
 .div-img2 {
     position: absolute;
     width: 20%;
-    margin-top: 470px;
-    margin-left: 880px;
+    margin-top: 467px;
+    margin-left: 890px;
 }
 
 .div-img3 {
     position: relative;
     width: 20%;
     margin-top: 520px;
-    margin-left: 730px;
+    margin-left: 390px;
 }
 
 .div-img4 {
-    position: absolute;
-    margin-top: 900px;
+    position: relative;
+    width: 20%;
+    margin-top: 385px;
+    margin-left: 65px;
 }
