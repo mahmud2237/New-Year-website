@@ -224,7 +224,7 @@ h2 {
 .back-img,
 .div-img {
     position: relative;
-    width: 1300px;
+    width: auto;
     display: flex;
     /* justify-content: space-between; */
 
@@ -232,26 +232,165 @@ h2 {
 
 .div-img1 {
     position: absolute;
-    margin-top: 900px;
+    margin-top: 575px;
 }
 
 .div-img2 {
     position: absolute;
     width: 20%;
-    margin-top: 467px;
+    margin-top: 142px;
     margin-left: 890px;
 }
 
 .div-img3 {
     position: relative;
     width: 20%;
-    margin-top: 520px;
-    margin-left: 390px;
+    margin-top: 190px;
+    margin-left: 350px;
 }
 
 .div-img4 {
     position: relative;
     width: 20%;
-    margin-top: 385px;
+    margin-top: 50px;
     margin-left: 65px;
 }
+
+/* done the 50% discount here */
+.portfolio-div {
+    margin-top: 250px;
+    width: auto;
+}
+
+.best {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.awesome {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
