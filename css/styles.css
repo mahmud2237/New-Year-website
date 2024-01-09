@@ -30,7 +30,7 @@ p {
 .newyear-div {
     background-position: center;
     border-radius: 16px;
-    width: 1320px;
+    width: 1300px;
     height: 600px;
     margin-left: 25px;
     background-image: url('../images/Banner.png');
@@ -198,7 +198,7 @@ h2 {
 
 .holi {
     background: #FFF;
-    width: 1350px;
+    width: 1300px;
     height: auto;
     text-align: center;
     border-radius: 8px;
@@ -314,33 +314,39 @@ h2 {
     border-radius: 10px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-
+    width: 1300px;
+    height: 500px;
 }
 
-.subs {
+.subs-container {
     font-family: Inter;
     border-radius: 50px;
-    background: #FFF;
-    width: 648px;
-    height: 72px;
+    /* background: #FFF;
+    align-items: center;
+    display: flex;
+    justify-content: center; */
 }
-
-.btn-subs {
+.email{
+    position: relative;
+    width: 448px;
+    height: 52px;
+    border-radius: 50px;
+}
+.email-subs {
+    position: absolute;
     background: #F00;
-    display: inline-flex;
     font-family: Inter;
-    padding: 10px 12px;
-    margin-top: 40px;
+    padding: 20px 32px;
     color: #FFF;
-    /* gap: 10px; */
-    /* border-radius: 8px; */
+    border-radius: 50px;
+    margin-left: -130px;
 }
 
 /* footer section here  */
 .footer {
     background: #070211;
     text-align: center;
-    width: 1600px;
+    width: 1500px;
     height: 609px;
     color: #FFF;
     font-family: Inter;
@@ -350,16 +356,19 @@ h2 {
 .first-footer {
     display: flex;
 }
-.first-footer1{
+
+.first-footer1 {
     width: 25%;
     margin-top: 55px;
     margin-left: 50px;
 }
-.first-footer2{
+
+.first-footer2 {
     width: 25%;
     margin-top: 50px;
     margin-left: 500px;
 }
+
 .second-footer {
     margin-top: 50px;
     border: 0;
@@ -382,12 +391,14 @@ h2 {
     margin-left: 50px;
     display: inline;
 }
-.rights{
+
+.rights {
     margin-top: 50px;
     width: 25%;
-    
+
 }
-.unsubs{
+
+.unsubs {
     width: 100%;
     margin-left: 500px;
 }
