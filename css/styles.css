@@ -40,17 +40,17 @@ p {
 .newyear-greeting {
     color: #FFF;
     font-size: 28px;
-    font-weight: 400;
+    padding: 60px 0px;
+    text-align: center;
     margin-top: 60px;
 }
 
 .newyear-party {
+    text-align: center;
     color: #FFF;
-    font-weight: 700;
     display: flex;
     font-family: Merriweather;
-    padding: 0 250px;
-    margin-left: 150px;
+    padding: 0 150px;
 }
 
 .offer {
@@ -163,6 +163,7 @@ p {
     background: #FFF;
     display: flex;
     margin-top: 200px;
+    text-align: center;
     display: inline-flex;
     padding: 16px 32px;
 }
@@ -177,10 +178,12 @@ h2 {
 
 .div1 {
     width: 25%;
+    margin-left: 60px;
 }
 
 .div2 {
-    width: 25%;
+    width: 35%;
+    margin-left: auto;
 }
 
 .circle {
@@ -189,11 +192,12 @@ h2 {
 }
 
 .div3 {
-    width: 20%;
+    width: 25%;
+    margin-left: auto;
 }
 
 .holi {
-    background: #f75e5e;
+    background: #FFF;
     width: 1350px;
     height: auto;
     text-align: center;
@@ -220,7 +224,7 @@ h2 {
 .back-img,
 .div-img {
     position: relative;
-    width: 1320px;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
 
@@ -236,15 +240,15 @@ h2 {
 .div-img2 {
     position: absolute;
     width: 20%;
-    margin-top: 485px;
-    margin-left: 670px;
+    margin-top: 580px;
+    margin-left: 880px;
 }
 
 .div-img3 {
     position: relative;
     width: 20%;
-    margin-top: 610px;
-    margin-right: 165px;
+    margin-top: 480px;
+    margin-right: 265px;
 }
 
 .div-img4 {
