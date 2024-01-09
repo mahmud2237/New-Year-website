@@ -158,6 +158,8 @@ p {
 }
 
 .newbest {
+    /* background-size: cover;
+    background-position: center; */
     width: 1300px;
     background: #FFF;
     display: flex;
@@ -377,7 +379,7 @@ h2 {
 .email {
     position: relative;
     width: 448px;
-    height: 52px;
+    height: 55px;
     border-radius: 50px;
 }
 
@@ -387,8 +389,11 @@ h2 {
     font-family: Inter;
     padding: 20px 32px;
     color: #FFF;
-    border-radius: 50px;
+    border-radius: 45px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     margin-left: -130px;
+    /* border-radius: 0 10px 10px 0; */
 }
 
 /* footer section here  */
@@ -419,6 +424,7 @@ h2 {
 }
 
 .second-footer {
+    width: 80%;
     margin-top: 50px;
     border: 0;
     height: 1px;
@@ -431,6 +437,7 @@ h2 {
 }
 
 .forth-footer {
+    width: 80%;
     margin-top: 50px;
     border: 0;
     border-bottom: 1px solid #FFFFFF26;
