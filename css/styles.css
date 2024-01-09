@@ -26,13 +26,18 @@ p {
 }
 
 .newyear-div {
+    position: relative;
     background-position: center;
     border-radius: 16px;
     width: 1300px;
     height: 600px;
     margin-left: 25px;
-    background-image: url('../images/Banner.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/Banner.png');
     background-repeat: no-repeat;
+}
+.newyear-photo-blar{
+    position: absolute;
+    left: 20px;
 }
 
 .newyear-greeting {
@@ -110,19 +115,17 @@ p {
     letter-spacing: 7.04px;
 }
 
-.description {
+.welcome-discription {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
+    margin-left: 50px;
 }
 
 .join {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 700;
 }
 
 .year2024 {
