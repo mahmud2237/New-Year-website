@@ -257,9 +257,11 @@ h2 {
 }
 
 /* done the 50% discount here */
+
 .portfolio-div {
     background: #FFF;
     margin-top: 250px;
+    margin-left: 10px;
     width: auto;
 }
 
@@ -303,4 +305,89 @@ h2 {
 
 .imge6:hover {
     background-color: rgb(241, 213, 54);
+}
+
+
+/* Subscribe Newsletter */
+.subscribe-newsletter {
+    margin-top: 120px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+
+}
+
+.subs {
+    font-family: Inter;
+    border-radius: 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+}
+
+.btn-subs {
+    background: #F00;
+    display: inline-flex;
+    font-family: Inter;
+    padding: 10px 12px;
+    margin-top: 40px;
+    color: #FFF;
+    /* gap: 10px; */
+    /* border-radius: 8px; */
+}
+
+/* footer section here  */
+.footer {
+    background: #070211;
+    text-align: center;
+    width: 1600px;
+    height: 609px;
+    color: #FFF;
+    font-family: Inter;
+    margin-top: 120px;
+}
+
+.first-footer {
+    display: flex;
+}
+.first-footer1{
+    width: 25%;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.first-footer2{
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.second-footer {
+    margin-top: 50px;
+    border: 0;
+    height: 1px;
+    background: #FFFFFF26;
+}
+
+.third-footer {
+    margin-top: 50px;
+    position: centre;
+}
+
+.forth-footer {
+    margin-top: 50px;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF26;
+}
+
+.fifth-footer {
+    margin-left: 50px;
+    display: inline;
+}
+.rights{
+    margin-top: 50px;
+    width: 25%;
+    
+}
+.unsubs{
+    width: 100%;
+    margin-left: 500px;
 }
