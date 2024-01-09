@@ -246,7 +246,7 @@ h2 {
     position: relative;
     width: 20%;
     margin-top: 190px;
-    margin-left: 350px;
+    margin-left: 360px;
 }
 
 .div-img4 {
@@ -258,8 +258,13 @@ h2 {
 
 /* done the 50% discount here */
 .portfolio-div {
+    background: #FFF;
     margin-top: 250px;
     width: auto;
+}
+
+.portfolio-divimg {
+    text-align: left;
 }
 
 .best {
@@ -274,123 +279,28 @@ h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    text-transform: capitalize;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.imge1:hover {
+    background-color: rgb(241, 213, 54);
+}
+
+.imge2:hover {
+    background-color: rgb(241, 213, 54);
+}
+
+.imge3:hover {
+    background-color: rgb(241, 213, 54);
+}
+
+.imge4:hover {
+    background-color: rgb(241, 213, 54);
+}
+
+.imge5:hover {
+    background-color: rgb(241, 213, 54);
+}
+
+.imge6:hover {
+    background-color: rgb(241, 213, 54);
+}
